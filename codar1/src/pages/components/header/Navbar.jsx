@@ -1,13 +1,22 @@
-import React from 'react';
- import { Header } from './Navbar.styles'
+import React from "react";
+import { Navcontainer } from "./Navbar.styles";
+import { Logo } from './Navbar.styles'
 
 function Navbar() {
-  return(
-    <div>
-      <Header>olá mundão</Header>
-    </div>
-  )
+  return <Navcontainer>
+    
+    <Logo>Codar.</Logo>
+
+    <ul>
+    
+      <li>login</li>
+      <li>Início</li>
+      <li>Serviços</li>
+      <li>Contato</li>
+      
+    </ul>
+    
+  </Navcontainer>;
 }
 
 export default Navbar;
-
